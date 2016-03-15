@@ -35,7 +35,17 @@ This implementation does not support all of GFM features.
 - Horizontal rules
 - Emojis
 
+## Installation
+```
+pip install py-gfm
+```
 
+## Usage
+```python
+import markdown
+
+html = markdown.markdown(markdowntext, extensions=['gfm'])
+```
 ## License
 
 BSD-style. See [LICENSE](/LICENSE).
